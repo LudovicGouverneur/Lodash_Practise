@@ -1,6 +1,6 @@
 # Lodash_Practise
 
-[l - Trace-Blocked]("1 - Trace-blocked.md")
+[l - Trace-Blocked](README.md)
 
 ### 0 - Index
 * [docs](#docs)
