@@ -86,21 +86,27 @@ This code is not supposed to run. The goal is :
   * To break down the function -> Trace block
 
 Example for the three objects :
-```javascript
+
+First Objects : arguments
+```
 let args = {
 		string: undefined,
 		length: undefined,
 		chars: undefined
  	};
   ```
+Second Ibject : dependancies  
 ```
-let dep = {
-		createPadding: {
-			args: {
-				number: "The padding length"
-				string: "The string used as padding"
-			},
-	}
+toInteger: {
+		args: {
+			anything: "the value to convert"
+		},
+		returns: {
+			number: "the converted integer"
+		},
+		behavior: "Converts `value` to an integer."
+	},
+(...)
 ```
 
 ```
@@ -108,7 +114,7 @@ let dep = {
 	padStart: {
 		args.string = dep.toString(args.string);
 		args.length = dep.toInteger(args.length);
-  (...)
+(...)
 		break padStart;
 	};
 ```
