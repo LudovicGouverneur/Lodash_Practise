@@ -77,7 +77,7 @@ ___
 
 ## 2.1 - padStart - trace - blocked 
 
-First step in exploring the code. Split the code in three objects : 
+First step in exploring the code. How does it work? Split the code in three objects : 
 
   * _arguments_ : the arguments are not Hoisted. Easier to consider it "declared" at the top of the analysis, as they are passed to the function via the function call.
   * _dependencies_ : check the documentation for that. You can go as deep as you want (dependencies of dependencies ...) depensing of you goal. 
@@ -89,14 +89,17 @@ This code is not supposed to run. The goal is :
 
 For more details, read : [l - Trace-Blocked](1_Trace-blocked.md)
 
+At this stage, we know exactly what is going on.
+
 ## 2.2 - padstart - chunked - blocked
 
 In this part, we break-down the "function object" in several chunks of code, each on performing a distinct action.
+Going from implimentation to behaviour.
 
 Identify : 
 - the action
 - the arguments that are passed in
-- the outpu
+- the output
 Write each chunk in a new object called "closure".
 
 The four actions identified are : 
@@ -105,6 +108,11 @@ The four actions identified are :
  - _pad_check_ : evaluate if the string need padding 
  - _pad_ : performing the padding
 
+Notes from Evan : 
+- Question you should ask yourself : 
+ - determining chunks and purpose : 
+2 > 3 make the code work
+3 > 4 make it tracable
 ## Recap
 
 Summarize what you've learned and struggled with studying this functionn.
