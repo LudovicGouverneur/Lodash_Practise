@@ -123,4 +123,4 @@ Third object : "function"
 ```
 ## Recap
 
-Summarize what you've learned and struggled with studying this function.
+Summarize what you've learned and struggled with studying this functionn.
