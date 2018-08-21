@@ -1,8 +1,11 @@
 # Lodash_Practise
 
-### Index
+### 0 - Index
 * [docs](#docs)
 * [input analysis](#input-analysis)
+* js files : 
+  * 0 - padStart : contains code to study with its documentation
+  * 1 - padStart - trace - blocked 
 * [part-task](#part-task)
 * [recap](#recap)
 * [helpful links](#helpful-links)
@@ -10,17 +13,12 @@
 Documentation : https://lodash.com/docs/4.17.10
 In this exercice, we practice 4 steps analysis of a piece of code. This piece of code is a part of the lodash library : padstart.
 
-## Padstart
+## 1 - Padstart - Pre-analysis
   * padstart : https://lodash.com/docs/4.17.10#padStart 
   * Remark on dependencies. Depencies are not freedom. The darkside of opensource is that you depends on some other people's dependencies. This is a question we should ask ourself : can I build it myself.
   * module lodash, module dot export. : https://github.com/elewa-academy/module-dot-exports.git
   
-## Documentation
-
-general introduction and overview
-___
-
-### [Docs](https://lodash.com/docs/4.17.10#padStart)
+## 1.1 - [Docs](https://lodash.com/docs/4.17.10#padStart)
 
 > _.padStart([string=''], [length=0], [chars=' '])
 
@@ -54,7 +52,7 @@ _.padStart('abc', 3);
 
 ___
 
-### Input Analysis
+## 1. 2 Input Analysis
 
 Consider as much input classification as possible.
 
@@ -75,6 +73,12 @@ Consider as much input classification as possible.
 
 ___
 
-### Recap
+## 2.1 - padStart - trace - blocked 
+
+First step in exploring the code. Split the code in three objects : 
+  * argument
+  * dependencies
+  * "function". Everything in the third object should reffers to methods/variables defined in the first two objects.
+## Recap
 
 Summarize what you've learned and struggled with studying this function.
