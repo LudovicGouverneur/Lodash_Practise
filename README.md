@@ -97,16 +97,18 @@ let args = {
   ```
 Second Object : dependencies  
 ```
-toInteger: {
-		args: {
-			anything: "the value to convert"
+let dep = {
+	toInteger: {
+			args: {
+				anything: "the value to convert"
+			},
+			returns: {
+				number: "the converted integer"
+			},
+			behavior: "Converts `value` to an integer."
 		},
-		returns: {
-			number: "the converted integer"
-		},
-		behavior: "Converts `value` to an integer."
-	},
 (...)
+}
 ```
 Third object : "function"
 ```
