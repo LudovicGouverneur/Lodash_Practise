@@ -1,5 +1,7 @@
 # Lodash_Practise
 
+[l - Trace-Blocked]("1 - Trace-blocked.md")
+
 ### 0 - Index
 * [docs](#docs)
 * [input analysis](#input-analysis)
@@ -85,7 +87,7 @@ This code is not supposed to run. The goal is :
   * understand dependancies;
   * To break down the function -> Trace block
 
-[l - Trace-Blocked](1 - Trace-blocked.md)
+
     
 ## Recap
 
