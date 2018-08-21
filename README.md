@@ -1,6 +1,6 @@
 # Lodash_Practise
 
-[l - Trace-Blocked](1_Trace-blocked.md)
+
 
 ### 0 - Index
 * [docs](#docs)
@@ -87,8 +87,24 @@ This code is not supposed to run. The goal is :
   * understand dependancies;
   * To break down the function -> Trace block
 
+For more details, read : [l - Trace-Blocked](1_Trace-blocked.md)
 
-    
+## 2.2 - padstart - chunked - blocked
+
+In this part, we break-down the "function object" in several chunks of code, each on performing a distinct action.
+
+Identify : 
+- the action
+- the arguments that are passed in
+- the outpu
+Write each chunk in a new object called "closure".
+
+The four actions identified are : 
+ - _cast_args_ : casting string and number
+ - _find_length_ : calculate string length
+ - _pad_check_ : evaluate if the string need padding 
+ - _pad_ : performing the padding
+
 ## Recap
 
 Summarize what you've learned and struggled with studying this functionn.
