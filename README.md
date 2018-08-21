@@ -95,7 +95,7 @@ let args = {
 		chars: undefined
  	};
   ```
-Second Ibject : dependancies  
+Second Object : dependencies  
 ```
 toInteger: {
 		args: {
@@ -108,7 +108,7 @@ toInteger: {
 	},
 (...)
 ```
-
+Third object : "function"
 ```
  let ret_val;
 	padStart: {
@@ -117,7 +117,6 @@ toInteger: {
 (...)
 		break padStart;
 	};
-```
 } 
 ```
 ## Recap
