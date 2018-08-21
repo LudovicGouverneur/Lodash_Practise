@@ -1,5 +1,12 @@
 # Lodash_Practise
 
+### Index
+* [docs](#docs)
+* [input analysis](#input-analysis)
+* [part-task](#part-task)
+* [recap](#recap)
+* [helpful links](#helpful-links)
+
 Documentation : https://lodash.com/docs/4.17.10
 In this exercice, we practice 4 steps analysis of a piece of code. This piece of code is a part of the lodash library : padstart.
 
@@ -11,14 +18,6 @@ In this exercice, we practice 4 steps analysis of a piece of code. This piece of
 ## Documentation
 
 general introduction and overview
-
-### Index
-* [docs](#docs)
-* [input analysis](#input-analysis)
-* [part-task](#part-task)
-* [recap](#recap)
-* [helpful links](#helpful-links)
-
 ___
 
 ### [Docs](https://lodash.com/docs/4.17.10#padStart)
