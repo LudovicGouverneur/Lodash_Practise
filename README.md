@@ -85,7 +85,7 @@ This code is not supposed to run. The goal is :
   * understand dependancies;
   * To break down the function -> Trace block
 
-[l - Trace-Blocked]("./Lodash_Practise/1 - Trace-blocked.md"]
+[l - Trace-Blocked]("./Lodash_Practise/1 - Trace-blocked.md")
     
 ## Recap
 
